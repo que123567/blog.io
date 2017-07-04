@@ -14,7 +14,7 @@ header-img: "img/green.jpg"
 
 ### 联系
 
-- [博客@CSDN](:http://blog.csdn.net/vip9504)
+- [博客@CSDN](http://blog.csdn.net/vip9504)
 
 - [微博@邱钟浩](http://weibo.com/que123567)
 
