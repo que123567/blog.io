@@ -8,7 +8,7 @@ description: 安卓数据库可视化工具推荐
 
 ---
 
-.### 1.SQLite  数据库可视化工具推荐
+### 1.SQLite  数据库可视化工具推荐
 - SQLiteStudio 下载地址
 https://sqlitestudio.pl/index.rvt
 
