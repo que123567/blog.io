@@ -12,12 +12,10 @@ header-img: "img/green.jpg"
 
 
 
-###联系
+### 联系
 
 - [博客:http://blog.csdn.net/vip9504]
 
 - [微博@邱钟浩](http://weibo.com/que123567)
 
 - [知乎@邱钟浩](https://www.zhihu.com/people/qiuzhonghao)
-
-- [QQ]:371964036
