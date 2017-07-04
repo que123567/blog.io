@@ -1,3 +1,12 @@
+---
+layout: post
+title: Android自义定view之九宫格解锁
+date: 2017-05-15
+categories: blog
+tags: [Android]
+description:  
+
+---
 ## android自定义view之九宫格解锁
 更多细节请看源码
 https://github.com/que123567/lockview
@@ -71,7 +80,7 @@ public class Point {
   重写onDraw()方法
   - 初始化点的时候根据获取当前屏幕的宽高，比对来确定当前状态是横屏还是竖屏
   -   从资源中获取Bitmap，将点设置成图像。
-     
+
 ```
     @Override
     protected void onDraw(Canvas canvas) {
@@ -98,7 +107,7 @@ public class Point {
     }
 
 public class LockView extends View {
- 
+
  private void initPoints() {
         width = getWidth();
         height = getHeight();
@@ -143,7 +152,7 @@ public class LockView extends View {
 
 
 - **3.重写onTouchEvent**
- 
+
 ```
   case MotionEvent.ACTION_DOWN:
                 reset();//先清空之前绘制的状态
@@ -153,7 +162,7 @@ public class LockView extends View {
                     checkedPoint.setState(Point.STATU_PRESSED);
                 }
                 break;
-                
+
 ```
 
 checkPoint()通过计算坐标距离判断当前手指坐标是否在point图片上
@@ -189,7 +198,7 @@ LockView中定义一个Point类的List --->pointList 记录用户按下的点
 - 当pointList为空，即用户未按下任一点的时候*不绘制线段*，其余时刻都绘制
 
 - 绘制线段调用canvas的drawLine()方法,传入起始点x,y坐标与目标点x,y坐标与一个自定义的paint画笔绘制线段		
- 
+
 ```
  private void drawLine(Canvas canvas) {
         if (pointList.size() > 0) {

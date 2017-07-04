@@ -1,3 +1,13 @@
+---
+layout: post
+title: Android自义定view之加载动画
+date: 2017-05-15
+categories: blog
+tags: [Android]
+description: 安卓数据库可视化工具推荐
+
+---
+
 更多细节请看源码
 https://github.com/que123567/CradleBallView
 用途：可充当加载动画
@@ -97,7 +107,7 @@ xmlns:smaug="http://schemas.android.com/apk/res-auto"
 
 
 ### **2.定义一个持彩球引用的布局**
- 
+
  通过ScaleAnimation实现小球的大小变化。
  延迟效果的实现原理很简单，设置不同的动画起始时间即可
 ```
@@ -255,5 +265,3 @@ public class ColorBallLoading extends LinearLayout {
     }
 }
 ```
- 
-
