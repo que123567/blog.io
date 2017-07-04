@@ -1,18 +1,13 @@
 ---
 layout: page
 title: "Tags"
-description: "tags"  
+description: "标签页"  
 header-img: "img/semantic.jpg"  
 ---
 
-##本页使用方法
+## 本业为标签索引导航页
 
-1. 在下面选一个你喜欢的词
-2. 点击它
-3. 相关的文章会「唰」地一声跳到页面顶端
-
-##tags列表
-
+## tags列表
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
