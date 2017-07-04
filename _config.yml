@@ -2,13 +2,13 @@
 title: 邱钟浩的主页
 header-img: "img/green.jpg"
 tagline: "cn"
-description: "smaug"
+description: smaug
 baseurl:
 url: "http://que123567"
 
 # About/contact
 owner:
-  name: "邱钟浩"
+  name: 邱钟浩
   email: vip9504@163.com
   bio: "dis"
 
