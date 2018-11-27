@@ -1,4 +1,5 @@
 # Site settings
+<<<<<<< HEAD
 title: 邱钟浩的主页
 header-img: "img/green.jpg"
 tagline: "cn"
@@ -11,17 +12,40 @@ owner:
   name: Android开发工程师/编程爱好者/阅读爱好者
   email: vip9504@163.com
   bio: "dis"
+=======
+title: 博客名字 # 你的博客名字，可以定义修订
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "这是我的博客"  # 一句话描述你的博客
+baseurl: ""
+url: "http://cnfeat"  # 此处填写你的博客地址 
+
+# About/contact
+owner: 
+  name: "作者名字" # 填写作者信息：名字
+  email: X@gmail.com # 填写作者信息：邮箱
+  bio: "你的博客描述" # 填写作者信息：博客描述
+>>>>>>> cnfeat/master
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
+<<<<<<< HEAD
 douban_username:
 twitter_username:
 github_username:
 facebook_username:
 weibo_username:
 zhihu_username:
+=======
+douban_username:  # 你的豆瓣id
+twitter_username: 
+github_username: 
+facebook_username: 
+weibo_username: 
+zhihu_username: 
+>>>>>>> cnfeat/master
 
 # Build settings
 # use Github Flavored Markdown !important
@@ -43,11 +67,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+<<<<<<< HEAD
       author: "qiuzhonghao"
+=======
+      author: "你的名字" # 你的名字
+>>>>>>> cnfeat/master
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments
 comments :
+<<<<<<< HEAD
   provider : smaug
   duoshuo :
     short_name :
@@ -56,6 +85,16 @@ comments :
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
+=======
+  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+  duoshuo :
+    short_name :  # 填写你的 disqus id
+  disqus :
+      short_name :  # 填写你的 disqus id
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:  # 填写你  google_analytics id
+>>>>>>> cnfeat/master
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
